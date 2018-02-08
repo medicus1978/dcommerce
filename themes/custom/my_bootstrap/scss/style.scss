@@ -6,3 +6,12 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+body {
+//  color: #0c97ed;
+  background: url("../images/97586fa65967c2e.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
