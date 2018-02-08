@@ -1,0 +1,12 @@
+uuid: 0076a7c0-8fc1-4c46-bd8f-c384c4e35c54
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 96ryTApvzUl00vKGZusJUDgPHQALAKN8Mb13Jxm02KU
+id: default
+label: Default
+description: ''
+variationType: default
+injectVariationFields: true
+traits: {  }

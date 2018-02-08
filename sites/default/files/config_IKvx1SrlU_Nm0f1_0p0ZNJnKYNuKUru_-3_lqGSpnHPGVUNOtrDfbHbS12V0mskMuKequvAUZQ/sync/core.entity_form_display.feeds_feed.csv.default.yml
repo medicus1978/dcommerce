@@ -1,0 +1,44 @@
+uuid: 8605d22f-3b66-444a-855d-34b5acbf85ed
+langcode: uk
+status: true
+dependencies:
+  config:
+    - feeds.feed_type.csv
+    - field.field.feeds_feed.csv.field_price
+  module:
+    - commerce_price
+id: feeds_feed.csv.default
+targetEntityType: feeds_feed
+bundle: csv
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_price:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: commerce_price_default
+    region: content
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

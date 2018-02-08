@@ -1,0 +1,22 @@
+uuid: 72cd79bc-5685-4d18-bc55-25b2043dd956
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - my_bootstrap
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: my_bootstrap_local_tasks
+theme: my_bootstrap
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Вкладки
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

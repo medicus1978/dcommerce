@@ -1,0 +1,31 @@
+uuid: 063e2513-c78c-44ce-99fa-9068c0c599fe
+langcode: uk
+status: true
+dependencies: {  }
+label: csv
+id: csv
+description: ''
+import_period: 3600
+fetcher: http
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  allowed_schemes:
+    - public
+  recursive_scan: false
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: 0
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  update_existing: 2
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+  authorize: true
+  skip_hash_check: false
+  values:
+    type: article
+custom_sources: {  }
+mappings: {  }

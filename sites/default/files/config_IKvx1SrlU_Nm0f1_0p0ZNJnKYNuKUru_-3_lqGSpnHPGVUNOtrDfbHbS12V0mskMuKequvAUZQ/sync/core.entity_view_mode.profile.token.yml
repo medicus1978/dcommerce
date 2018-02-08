@@ -1,0 +1,10 @@
+uuid: dfe6425b-240f-486a-b150-e01bec5f7b4f
+langcode: uk
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.token
+label: Token
+targetEntityType: profile
+cache: true

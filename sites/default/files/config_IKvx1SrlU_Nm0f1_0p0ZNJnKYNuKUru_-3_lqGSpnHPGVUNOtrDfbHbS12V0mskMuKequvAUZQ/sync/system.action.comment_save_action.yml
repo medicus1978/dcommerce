@@ -1,0 +1,13 @@
+uuid: 4443b264-1773-40c1-9368-8ae41a822e3c
+langcode: uk
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: TSkg_gUZvk-39yXFrIFnKjsxuEzO0qBH82TdDxOMMr4
+id: comment_save_action
+label: 'Зберегти коментар'
+type: comment
+plugin: comment_save_action
+configuration: {  }

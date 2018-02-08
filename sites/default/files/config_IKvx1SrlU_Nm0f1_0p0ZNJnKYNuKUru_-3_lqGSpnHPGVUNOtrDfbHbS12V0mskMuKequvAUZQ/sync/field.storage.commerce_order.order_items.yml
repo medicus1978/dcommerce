@@ -1,0 +1,21 @@
+uuid: 0494d71b-1c5e-4f3c-a023-23c1274fd1e2
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_order
+_core:
+  default_config_hash: XXkG3364KELPh2dm7U58qNcPNoUgrvC2zj9LTHF4V5E
+id: commerce_order.order_items
+field_name: order_items
+entity_type: commerce_order
+type: entity_reference
+settings:
+  target_type: commerce_order_item
+module: core
+locked: true
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

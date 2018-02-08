@@ -1,0 +1,23 @@
+uuid: 5460137f-c2cf-48e7-be2c-8abe3ece3b43
+langcode: uk
+status: true
+dependencies:
+  config:
+    - feeds.feed_type.csv
+    - field.storage.feeds_feed.field_price
+  module:
+    - commerce_price
+id: feeds_feed.csv.field_price
+field_name: field_price
+entity_type: feeds_feed
+bundle: csv
+label: price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_currencies:
+    - UAH
+field_type: commerce_price

@@ -1,0 +1,53 @@
+uuid: be18362e-c41f-470f-9039-98a45eccb9f0
+langcode: uk
+status: true
+dependencies:
+  config:
+    - feeds.feed_type.csv
+    - field.field.feeds_feed.csv.field_price
+  module:
+    - commerce_price
+    - feeds
+    - user
+id: feeds_feed.csv.default
+targetEntityType: feeds_feed
+bundle: csv
+mode: default
+content:
+  field_price:
+    weight: 2
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      display_currency_code: false
+    third_party_settings: {  }
+    type: commerce_price_default
+    region: content
+  imported:
+    label: inline
+    type: timestamp_ago
+    weight: 1
+    region: content
+    settings:
+      future_format: '@interval hence'
+      past_format: '@interval ago'
+      granularity: 2
+    third_party_settings: {  }
+  next:
+    label: inline
+    type: timestamp
+    weight: 1
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  source:
+    label: inline
+    type: feeds_uri_link
+    weight: -3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,26 @@
+uuid: bb9265b8-5fe7-489a-b19f-26af3b9f1deb
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - my_bootstrap
+_core:
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+id: my_bootstrap_main_menu
+theme: my_bootstrap
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Основна навіґація'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

@@ -1,0 +1,12 @@
+uuid: 0b28a8da-fd01-4043-bffc-305822356782
+langcode: uk
+status: false
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
+id: user.full
+label: 'Обліковий запис користувача'
+targetEntityType: user
+cache: true

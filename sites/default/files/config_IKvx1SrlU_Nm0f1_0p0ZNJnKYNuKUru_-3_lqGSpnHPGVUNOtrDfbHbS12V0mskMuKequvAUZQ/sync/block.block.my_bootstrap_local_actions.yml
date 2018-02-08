@@ -1,0 +1,20 @@
+uuid: a9d1a589-0acb-4009-827f-3590092ccc61
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - my_bootstrap
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: my_bootstrap_local_actions
+theme: my_bootstrap
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  provider: core
+  label_display: '0'
+visibility: {  }

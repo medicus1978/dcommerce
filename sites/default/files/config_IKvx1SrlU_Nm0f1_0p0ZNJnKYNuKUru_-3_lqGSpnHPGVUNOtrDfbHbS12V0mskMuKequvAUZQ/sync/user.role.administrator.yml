@@ -1,0 +1,11 @@
+uuid: 9575fffc-c0d3-4a7a-a8bc-b104ecd86335
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
+id: administrator
+label: Адміністратор
+weight: 2
+is_admin: true
+permissions: {  }
